@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "name": "Arun SIngh",
+      "email": "maryan7415@gmail.com",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "name": "jfahkdsjf SIngh",
+      "email": "mfasdf@gmail.com",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "name": "Aryan Mishra",
+      "email": "aryan@gmail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "name": "Rohan Kumar",
+      "email": "rohan@gmail.com",
+      "password": "12345678",
+      "id": 4
+    }
+  ],
+  "trains": [
+    {
+      "id": 1,
+      "name": "Shatabadi Express",
+      "source": "Agra",
+      "destination": "Benguluru",
+      "ArrivalTime": "7:00 AM",
+      "ReachTime": "12:00 PM",
+      "TotalTime": "1 Day 5 Hour",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "name": "TamilNadu Express",
+      "source": "Delhi",
+      "destination": "Chennai",
+      "ArrivalTime": "10:00 PM",
+      "ReachTime": "7:00 AM",
+      "TotalTime": "1 Day 9 Hour",
+      "price": 1800
+    },
+    {
+      "id": 3,
+      "name": " Rewanchal Express",
+      "source": "Rewa",
+      "destination": "Bhopal",
+      "ArrivalTime": "8:00 PM",
+      "ReachTime": "6:00 AM",
+      "TotalTime": "10 Hour",
+      "price": 600
+    },
+    {
+      "id": 4,
+      "name": "Cuttak Express",
+      "source": "Mumbai",
+      "destination": "Cuttak",
+      "ArrivalTime": "5:00 AM",
+      "ReachTime": "1:00 AM",
+      "TotalTime": "1 Day 1 Hour",
+      "price": 1300
+    },
+    {
+      "id": 5,
+      "name": "Rewa Indore Express",
+      "source": "Rewa",
+      "destination": "Indore",
+      "ArrivalTime": "10:00 PM",
+      "ReachTime": "3:00 PM",
+      "TotalTime": "18 Hour",
+      "price": 900
+    }
+  ],
+  "tickets": [
+    {
+      "name": "Aryan Mishra",
+      "TrainName": "Rewanchal Express",
+      "source": "rewa",
+      "destination": "bhopal",
+      "id": 1
+    },
+    {
+      "name": "Aryan Mishra",
+      "TrainName": "TamilNadu Express",
+      "id": 2,
+      "source": "Delhi",
+      "destination": "Chennai"
+    },
+    {
+      "name": "Rohan Kumar",
+      "TrainName": " Rewanchal Express",
+      "id": 3,
+      "source": "Rewa",
+      "destination": "Bhopal"
+    },
+    {
+      "name": "Rohan Kumar",
+      "TrainName": "Rewa Indore Express",
+      "id": 5,
+      "source": "Rewa",
+      "destination": "Indore"
+    }
+  ]
+}
